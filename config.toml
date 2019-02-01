@@ -30,7 +30,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [params.logo]
     url = "pluma.png"
-    width = 50
-    height = 50
+    width = 80
+    height = 80
     alt = "Logo"
 
