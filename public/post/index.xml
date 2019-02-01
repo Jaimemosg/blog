@@ -6,27 +6,16 @@
     <description>Recent content in Posts on Blog de Freddy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
-      
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
-    </item>
-    
-    <item>
-      <title>Título de la publicación</title>
-      <link>/1/01/01/t%C3%ADtulo-de-la-publicaci%C3%B3n/</link>
+      <title>Plantilla</title>
+      <link>/1/01/01/plantilla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/1/01/01/t%C3%ADtulo-de-la-publicaci%C3%B3n/</guid>
+      <guid>/1/01/01/plantilla/</guid>
       <description>IntroducciónLas ecuaciones.
 \[\begin{align*} y_i &amp;amp;\sim N(\mu_i, \sigma^2) \\ \mu_i &amp;amp;= 59 + 1 x_i \\\sigma &amp;amp;= 1 \\x &amp;amp;\sim Uniforme[1, 9]\end{align*}\]Sección 1summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.:19.0 3rd Qu.: 56.00 ## Max. :25.0 Max. :120.00fit &amp;lt;- lm(dist ~ speed, data = cars)fit## ## Call:## lm(formula = dist ~ speed, data = cars)## ## Coefficients:## (Intercept) speed ## -17.</description>
     </item>

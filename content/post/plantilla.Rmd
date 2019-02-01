@@ -1,5 +1,5 @@
 ---
-title: "Título de la publicación"
+title: "Plantilla"
 author: "Freddy Hernández"
 date: '`r format(Sys.Date(), "%Y-%B-%d")`'
 categories: ["R"]
