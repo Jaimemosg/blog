@@ -1,5 +1,5 @@
 ---
-title: "Primer publicación"
+title: "Título de la publicación"
 author: "Freddy Hernández"
 date: '`r format(Sys.Date(), "%Y-%B-%d")`'
 categories: ["R"]
@@ -10,11 +10,18 @@ tags: ["R Markdown", "plot", "regression"]
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# R Markdown esto es una prueba de funcionamiento
+# Introducción
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Las ecuaciones.
 
-You can embed an R code chunk like this:
+\begin{align*} 
+y_i &\sim N(\mu_i, \sigma^2) \\ 
+\mu_i &= 59 + 1 x_i \\
+\sigma &= 1 \\
+x &\sim Uniforme[1, 9]
+\end{align*}
+
+# Sección 1
 
 ```{r cars}
 summary(cars)
@@ -22,7 +29,7 @@ fit <- lm(dist ~ speed, data = cars)
 fit
 ```
 
-# Including Plots
+# Sección 2
 
 You can also embed plots. See Figure \@ref(fig:pie) for example:
 
